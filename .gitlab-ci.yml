@@ -1,0 +1,21 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+    - .cache/
+    - public/
+
+before_script:
+  - node --version
+  - npm install
+pages:
+  script:
+    - ./node_modules/.bin/gatsby build
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+  tags:
+    - docker

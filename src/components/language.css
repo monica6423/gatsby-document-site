@@ -1,0 +1,39 @@
+.language-ul {
+    display: none;
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: -25%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.language-div:hover .language-ul{
+    display: block;
+}
+
+.product-ul {
+    list-style: none;
+    display: none;
+    text-align: center;
+    /* width: 100%; */
+    position: absolute;
+    left: -60%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    color: black;
+    margin-left: 0;
+    padding: 0 10px;
+}
+
+.product-div:hover .product-ul {
+    display: block;
+}
+
+@media (max-width: 680px) {
+    .language-ul {
+        top: -210%;
+        background-color: white;
+    }
+}

@@ -1,0 +1,22 @@
+.ant-menu-item a {
+  display: inline-block !important;
+}
+.ant-anchor-ink-ball {
+  border:2px solid #a1a7aa !important;
+}
+.ant-menu-submenu-selected, .ant-anchor-link-active > .ant-anchor-link-title {
+  color:#bac2c6 !important;
+}
+
+.ant-menu-submenu-active {
+  color:black !important;
+}
+
+.active {
+  background-color: #ececec;
+  border-right: 3px solid #4db5ad;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding-left: 24px;
+}

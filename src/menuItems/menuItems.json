@@ -1,0 +1,14 @@
+[
+  { 
+    "name": "Docs",
+    "link":  "/docs/get-started/gs_install"
+  },
+  {
+    "name": "Demo",
+    "link": "/demo"
+  },
+  {
+    "name": "Search",
+    "link": "/search"
+  }
+]

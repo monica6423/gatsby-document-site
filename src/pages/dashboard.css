@@ -1,0 +1,57 @@
+.helper-slogan {
+    margin-top: 4rem;
+}
+.dash-helper {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.helper-box {
+    cursor: pointer;
+    width: 30%;
+    border-radius: 20px;
+}
+
+
+.bounce {
+    display: inline-block;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 33px;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+    0%   { 
+        transform: scale(1,1)    translateY(0); 
+    }
+    10%  { 
+        transform: scale(1.1,.9) translateY(0); 
+    }
+    30%  { 
+        transform: scale(.9,1.1) translateY(-20px); 
+    }
+    50%  { 
+        transform: scale(1,1)    translateY(0); 
+    }
+    57%  { 
+        transform: scale(1,1)    translateY(-10px); 
+    }
+    64%  { 
+        transform: scale(1,1)    translateY(0); 
+    }
+    100% { 
+        transform: scale(1,1)    translateY(0); 
+    }
+}
+
+@media (max-width: 680px) {
+    .helper-box {
+        width: 100%;
+    }
+    .helper-box {
+        margin-top: 2rem;
+    }
+}

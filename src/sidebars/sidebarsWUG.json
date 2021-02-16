@@ -1,0 +1,51 @@
+[
+  {
+    "entry": "Docs",
+    "name": "Docs",
+    "child_entries": [
+      "Get Started",
+      "Integration",
+      "Guide"
+    ]
+  },
+  {
+    "entry": "Get Started",
+    "name": "Get Started",
+    "items": [
+      "docs/get-started/gs_relnote",
+      "docs/get-started/gs_install",
+      "docs/get-started/gs_activation",
+      "docs/get-started/gs_first_message"
+    ]
+  },
+  {
+    "entry": "Integration",
+    "name": "Integration",
+    "items": [
+      "docs/exam/exam_whatsup_gold_action_policy",
+      "docs/exam/exam_whatsup_gold_alert_center"
+    ]
+  },
+  {
+    "entry": "Guide",
+    "name": "Guide",
+    "items": [
+      "docs/guide/ug_sys_requirement",
+      "docs/guide/ug_overview",
+      "docs/guide/ug_dashboard",
+      "docs/guide/ug_script",
+      "docs/guide/ug_request",
+      "docs/guide/ug_timeshift",
+      "docs/guide/ug_wug_alertcenter",
+      "docs/guide/ug_sms",
+      "docs/guide/ug_sms_isp",
+      "docs/guide/ug_audio",
+      "docs/guide/ug_whatsapp",
+      "docs/guide/ug_line",
+      "docs/guide/ug_fb_messenger",
+      "docs/guide/ug_telegram",
+      "docs/guide/ug_wechat",
+      "docs/guide/ug_viber"
+    ]
+  }
+]
